@@ -1,5 +1,5 @@
 ### welcome_assignment_answers
-### Input - All eight questions given in the assignment.
+### Input - All nine questions given in the assignment.
 ### Output - The right answer for the specific question.
 
 def welcome_assignment_answers(question):
@@ -9,6 +9,10 @@ def welcome_assignment_answers(question):
         answer = "The student should type the answer here"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "The student should type the answer here"
+    else: 
+        ### you should understand why this else case should be included
+        ### what happens if there is a typo in one of the questions?
+        answer = "" 
     return(answer)
 # Complete all the questions.
 
@@ -24,7 +28,7 @@ if __name__ == "__main__":
 ###"Is it possible to decrypt a message without a key? - Yes/No"
 ###"Is it possible to decode a message without a key? - Yes/No"
 ###"Is a hashed message supposed to be un-hashed? - Yes/No"
-###"What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 hash generator and use the answer in your code"
+###"What is the SHA1 hashing value to the following message: 'NYU Computer Networking' - Use SHA1 hash generator and use the answer in your code"
 ###"Is MD5 a secured hashing algorithm? - Yes/No"
-###"What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number"
-###"What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number"
+###"What layer from the TCP/IP model does the protocol DHCP belong to? - The answer should be an integer number"
+###"What layer of the TCP/IP model does the protocol TCP belong to? - The answer should be an integer number"
