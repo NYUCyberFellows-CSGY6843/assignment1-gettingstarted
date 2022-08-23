@@ -30,5 +30,5 @@ if __name__ == "__main__":
 #"Is a hashed message supposed to be un-hashed? - Yes/No":
 #"What is the SHA1 hashing value to the following message: 'NYU Computer Networking' - Use SHA1 hash generator and use the answer in your code":
 #"Is MD5 a secured hashing algorithm? - Yes/No":
-#"What layer of the OSI model does the protocol DHCP belong to? - The answer should be an integer number":
-#"What layer of the OSI model does the protocol TCP belong to? - The answer should be an integer number":
+#"What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
+#"What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
