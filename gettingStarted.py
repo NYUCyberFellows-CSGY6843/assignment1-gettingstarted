@@ -12,6 +12,7 @@ def welcome_assignment_answers(question):
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
+        ### maybe put something here to flag an issue
         answer = ""
     return(answer)
 # Complete all the questions.
@@ -28,7 +29,7 @@ if __name__ == "__main__":
 #"Is it possible to decrypt a message without a key? - Yes/No":
 #"Is it possible to decode a message without a key? - Yes/No":
 #"Is a hashed message supposed to be un-hashed? - Yes/No":
-#"What is the SHA1 hashing value to the following message: 'NYU Computer Networking' - Use SHA1 hash generator and use the answer in your code":
+#"What is the SHA256 hashing value to the following message: 'NYU Computer Networking' - Use SHA256 hash generator and use the answer in your code":
 #"Is MD5 a secured hashing algorithm? - Yes/No":
 #"What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
 #"What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
