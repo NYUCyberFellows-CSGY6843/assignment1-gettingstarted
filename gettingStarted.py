@@ -19,9 +19,9 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = "2"
+        answer = "4"
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = "2"
+        answer = "4"
     else:
         answer = "An Error Occured. Please Try and Resubbitt Again"
     return(answer)
