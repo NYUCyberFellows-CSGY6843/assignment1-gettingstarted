@@ -3,7 +3,7 @@
 ### Output - The right answer for the specific question.
 
 def welcome_assignment_answers(question):
-    #Students do not have to follow the skeleton for this assignment.
+
     #Another way to implement is using a "case" statements similar to C.
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "The student should type the answer here"
